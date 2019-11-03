@@ -1,11 +1,24 @@
 .aside {
   border: 5px solid salmon;
+  grid-column: span 2;
+  display: grid;
+  padding: 15px 0;
 }
 
 .section__first {
   border: 2px solid yellowgreen;
+  grid-column: 1/2;
+  &-img {
+    border-radius: 50%;
+  }
 }
 
 .section__second {
   border: 2px solid blue;
+  grid-column: 2/3;
+ &-list {
+   list-style: none;
+   padding: 10px;
+   margin: 0;
+ }
 }
