@@ -1,11 +1,18 @@
 .header {
   border: 5px solid tomato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  grid-column: span 2;
 }
 
 .header__img {
   border: 2px solid yellowgreen;
+  width: 150px;
 }
 
 .header__title {
   border: 2px solid aquamarine;
+  font-size: 24px;
 }
