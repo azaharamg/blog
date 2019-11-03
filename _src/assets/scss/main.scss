@@ -4,3 +4,10 @@
 @import 'layout/header';
 @import 'layout/maincontainer';
 
+body {
+  margin: 30px;
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
