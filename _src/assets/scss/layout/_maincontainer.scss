@@ -1,14 +1,12 @@
 .main {
-  border: 5px solid green;
   grid-column: span 2;
-  @media all and (min-width:768px) {
+  @media all and (min-width: 768px) {
     grid-column: 1/2;
     width: 60vw;
   }
 }
 
 .main__post {
-  border: 2px solid darkorange;
   &-title {
     font-size: 16px;
   }

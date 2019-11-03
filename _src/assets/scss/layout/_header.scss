@@ -5,18 +5,16 @@
   align-items: center;
   padding: 20px 0;
   grid-column: span 2;
-  @media all and (min-width:768px) {
+  @media all and (min-width: 768px) {
     align-items: flex-start;
     grid-column: 1/2;
   }
 }
 
 .header__img {
-  border: 2px solid yellowgreen;
   width: 150px;
 }
 
 .header__title {
-  border: 2px solid aquamarine;
   font-size: 24px;
 }

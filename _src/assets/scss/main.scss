@@ -1,15 +1,15 @@
-@import 'core/reset';
-@import 'layout/aside';
-@import 'layout/footer';
-@import 'layout/header';
-@import 'layout/maincontainer';
+@import "core/reset";
+@import "layout/aside";
+@import "layout/footer";
+@import "layout/header";
+@import "layout/maincontainer";
 
 body {
   margin: 30px;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  @media all and (min-width:768px) {
+  @media all and (min-width: 768px) {
     margin: 10px;
     padding: 10px;
     border-left: 30px solid grey;
